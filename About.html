@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cirebon Animation Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+         <a href="#" class="logo-container">
+                <div class="logo-container">
+                    <img src="images/Logo.png" alt="Logo S3D">
+                </div>
+              </a>
+         <h1 class="title">Cirebon Animation Project</h1>
+        </div>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Service.html">Service</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">        <div class="image-box">
+          <img src="images/Anime.png" alt="Logo S3D">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h3>ABOUT</h3>
+        <p>Selamat datang di Cirebon Animation Project! Kami adalah komunitas kreatif yang berfokus pada pembuatan animasi berkualitas dengan sentuhan khas lokal.</p>
+    </section>
+    
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
